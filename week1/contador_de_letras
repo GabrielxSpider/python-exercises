@@ -1,0 +1,5 @@
+palavra = input("Digite uma palavra: ")
+
+palavra_sem_espaco = palavra.replace(" ", "")
+
+print("Quantidade de letras:", len(palavra_sem_espaco))
