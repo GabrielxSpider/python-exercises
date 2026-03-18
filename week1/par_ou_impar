@@ -1,6 +1,8 @@
+# Solicita um número ao usuário
 numero = int(input("Digite um número: "))
 
-if numero % 2 == 0:
+# Verifica se existe resto da divisão desse número
+if numero % 2 == 0:                  # Se não existir, ele é par
     print("O número é par")
-else:
+else:                                # Se existir, ele é impar
     print("O número é ímpar")
