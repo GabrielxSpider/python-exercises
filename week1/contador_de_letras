@@ -1,8 +1,0 @@
-# Solicita uma palavra ao usuário
-palavra = input("Digite uma palavra: ")
-
-# Remove os espaços da string
-palavra_sem_espaco = palavra.replace(" ", "")
-
-# Exibe a quantidade de letras
-print("Quantidade de letras:", len(palavra_sem_espaco))
