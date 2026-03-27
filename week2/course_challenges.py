@@ -9,5 +9,3 @@ try:
 
 except ValueError:
     print("That is not an integer.")
-
-# hour adaptation challenger
