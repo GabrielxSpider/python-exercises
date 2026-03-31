@@ -24,7 +24,6 @@ while True:
     number = int(input("Enter a number to add: "))
     if number == -1:
         break
-
-total += number
+    total += number
 
 print("Total sum:", total)
